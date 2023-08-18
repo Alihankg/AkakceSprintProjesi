@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public class US_02 {
+public class US_02 {
 }
