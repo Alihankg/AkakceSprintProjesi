@@ -40,8 +40,8 @@ public class US_02 extends BaseDriver {
         WebElement Mesajlarim = driver.findElement(By.linkText("Mesajlarım"));
         Mesajlarim.click();
 
-//        WebElement mesaj =driver.findElement(By.linkText(" Listelenecek mesaj bulunamadı."));
-//        Assert.assertTrue("mesaj kontrolü gözüktü = ", mesaj.isDisplayed());
+        WebElement mesaj =driver.findElement(By.xpath("//p[text()='Listelenecek mesaj bulunamadı.']"));
+        Assert.assertTrue("mesaj kontrolü gözüktü = ", mesaj.isDisplayed());
 
 
 
